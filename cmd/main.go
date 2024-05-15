@@ -17,7 +17,7 @@ var seconds float64 = 5 * 60
 func main() {
 
 	myApp := app.New()
-	w := myApp.NewWindow("Two Way")
+	w := myApp.NewWindow("My Pomodoro")
 	w.Resize(fyne.Size{
 		Width:  300,
 		Height: 200,
